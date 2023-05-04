@@ -2,7 +2,7 @@ import React from 'react'
 
 function Title() {
   return (
-    <div>Blackrose Barbershop</div>
+    <div className=' text-3xl ' >Blackrose Barbershop</div>
   )
 }
 
