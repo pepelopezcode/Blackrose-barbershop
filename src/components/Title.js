@@ -2,7 +2,9 @@ import React from 'react'
 
 function Title() {
   return (
-    <div className=' text-3xl ' >Blackrose Barbershop</div>
+    <div className='grid justify-items-center text-3xl bg-slate-500 p-5' >
+      <p>Blackrose Barbershop</p>
+      </div>
   )
 }
 
