@@ -1,5 +1,10 @@
 import React from 'react'
+
+
+import Reviews from './Reviews'
+
 import { StorefrontImage } from './Images'
+
 
 function HomePage() {
   return (
@@ -18,6 +23,7 @@ function HomePage() {
             <p className='p-20' >adfghbasidfbgji basdgbsad bghbsadlgblhj sadfbgj hsbadfghjlbsfhabg sdkjfbjksadbfa sdjfbn bjads kjhbsadvb hdsbahb vdshabvfgh s dfbvhsdbaf vhbsadfhgbshafdbghsabdfg</p>
             <img src={StorefrontImage} alt='pic3' />
         </div>
+        <Reviews />
     </div>
     
   )
