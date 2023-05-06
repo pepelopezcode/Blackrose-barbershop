@@ -9,13 +9,13 @@ import HomePage from "./HomePage";
 import AboutPage from "./AboutPage";
 import Products from "./Products";
 import Profile from "./Profile";
-import NavBar from "./NavBar";
+
 
 function App() {
   return (
     <div>
       <Header />
-      <NavBar />
+      
       <Routes >
         <Route exact path="/" element={<HomePage />} />
 
