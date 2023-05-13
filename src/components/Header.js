@@ -24,12 +24,12 @@ function Header() {
 
 
   return (
-    <div className='grid grid-cols-3  text-3xl bg-slate-500 p-5' >
-      <p onClick={() => navigate("/")} className='col-start-2 text-center cursor-pointer select-none' >Blackrose Barbershop</p>
+    <div className='grid grid-cols-3  text-6xl  bg-slate-500 p-5 select-none' >
+      <p onClick={() => navigate("/")} className='col-start-2 text-center cursor-pointer ' >Blackrose Barbershop</p>
       <div className="relative justify-self-end" ref={dropdownRef}>
         <button
           onClick={() => toggleMenu()}
-          className=" bg-gray-300 border-none text-gray-700 py-2 px-4 cursor-pointer"
+          className=" bg-gray-300 border-none text-gray-700 py-2 px-4 cursor-pointer "
         >
           #
         </button>
