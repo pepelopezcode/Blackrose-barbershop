@@ -39,7 +39,7 @@ function Products() {
     productImage: StorefrontImage,
     name: "test product",
     price: '$19900',
-    description: 'isfdjkngijsnadg',
+    description: 'isfdjknadfgadfsghha sakdnfjgk bjsadbngjk basdjkfbg sd ghsaiujdbgijbnsadijbgjksdabjkgbdsaikjubg  sadjbgjkdsbajkgbjkdsab gijsnadg',
   },
   
 ]
@@ -51,15 +51,15 @@ function Products() {
         {prod.map((item , index) => 
          {return (
           <div key={index} className='border rounded border-slate-900 p-4 m-4' >
-          <img src={item.productImage} alt={index} className='h-64 ' />
-          <p> {item.name} </p>
-          <p> {item.description} </p>
-          <div className=' flex justify-between items-center ' > 
-            <button className='border rounded-full py-1 px-2 border-slate-800 cursor-pointer' >Add to cart</button>
-            <p> {item.price} </p>
-          </div>
-          
-          
+            <div className='flex justify-center' > 
+              <img src={item.productImage} alt={index} className='h-64 justify-items-center ' />
+            </div>
+              <p> {item.name} </p>
+              <p> {item.description} </p>
+            <div className=' flex justify-between items-center ' > 
+              <button className='border rounded-full py-1 px-2 border-slate-800 cursor-pointer' >Add to cart</button>
+              <p> {item.price} </p>
+            </div>  
         </div>
          )
           

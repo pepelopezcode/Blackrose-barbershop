@@ -24,9 +24,9 @@ function Header() {
 
 
   return (
-    <div className='grid grid-cols-3  text-6xl  bg-slate-500 p-5 select-none' >
-      <p onClick={() => navigate("/")} className='col-start-2 text-center cursor-pointer ' >Blackrose Barbershop</p>
-      <div className="relative justify-self-end" ref={dropdownRef}>
+    <div className='grid grid-cols-3    bg-slate-500 p-5 select-none' >
+      <p onClick={() => navigate("/")} className='col-start-2 text-center cursor-pointer text-6xl' >Blackrose Barbershop</p>
+      <div className="relative justify-self-end text-lg" ref={dropdownRef}>
         <button
           onClick={() => toggleMenu()}
           className=" bg-gray-300 border-none text-gray-700 py-2 px-4 cursor-pointer "
@@ -36,7 +36,7 @@ function Header() {
         {isOpen && (
           <ul className="absolute top-full right-0 bg-white border border-gray-300 list-none p-0 m-0 min-w-full">
             <li className="py-2 px-4 cursor-pointer" onClick={ () => navigate("/products")} >Products</li>
-            <li className="py-2 px-4 cursor-pointer" onClick={ () => navigate("/about")} >About Us</li>
+            <li className="py-2 px-4 cursor-pointer whitespace-nowrap" onClick={ () => navigate("/about")} >About Us</li>
             <li className="py-2 px-4 cursor-pointer" onClick={ () => navigate("/profile-page")} >Profile</li>
           </ul>
         )}
